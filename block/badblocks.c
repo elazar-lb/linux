@@ -61,7 +61,7 @@
 int badblocks_check(struct badblocks *bb, sector_t s, int sectors,
 			sector_t *first_bad, int *bad_sectors)
 {
-	int hi;
+  	int hi;
 	int lo;
 	u64 *p = bb->page;
 	int rv;
